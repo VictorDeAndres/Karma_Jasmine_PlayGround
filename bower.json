@@ -1,0 +1,28 @@
+{
+  "name": "kamajasmineplayground",
+  "description": "playground for karma & jasmine",
+  "main": "index.js",
+  "authors": [
+    "victor de andres"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "test",
+    "playground",
+    "karma",
+    "jasmine"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.7",
+    "angular-mocks": "~1.5.7"
+  }
+}

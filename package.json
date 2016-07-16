@@ -1,0 +1,29 @@
+{
+  "name": "karmajasmineplayground",
+  "version": "0.0.1",
+  "description": "playground for karma & jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "keywords": [
+    "test",
+    "playground",
+    "karma",
+    "jasmine"
+  ],
+  "repository" :
+  { 
+    "type" : "git",
+    "url" : "https://github.com/VictorDeAndres/Karma_Jasmine_PlayGround.git"
+  },  
+  "author": "victor de andres",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.1",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-spec-reporter": "0.0.26"
+  }
+}
