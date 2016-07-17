@@ -1,4 +1,4 @@
-describe('Unit Test Scaffold Playground', function() {
+describe('Unit Test. Scaffold Playground', function() {
 
   beforeEach(function() {
     module('Playground');
@@ -14,7 +14,7 @@ describe('Unit Test Scaffold Playground', function() {
     expect(module).not.toBe(null);
   });
 
-  describe('unit test controllers exists', function() {
+  describe('Unit Test. controllers exists', function() {
     it('should behave controller.Alfa', function() {
       var $scope = {};
       var controller = $controller('Alfa.Controller', { $scope: $scope });      
@@ -27,4 +27,5 @@ describe('Unit Test Scaffold Playground', function() {
       expect(controller).not.toBe(null);
     });    
   });
+  
 });
